@@ -90,5 +90,4 @@ class ArrayList extends Array {
     }
   }
 }
-
 module.exports = ArrayList;
