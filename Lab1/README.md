@@ -7,4 +7,4 @@ This programm is provided with both interactive and non-interactive modes.
 3. Run ```node interactive.js``` or node ```non-interactive.mjs```
 
 ### Git revert
-**[Revert commit](https://github.com/leagerxd/Methodology-labs-leagerxd/commit/987cf9ab9c279929bf58b0fcc9aef4e887e19d56)
+**[Revert commit](https://github.com/leagerxd/Methodology-labs-leagerxd/commit/987cf9ab9c279929bf58b0fcc9aef4e887e19d56)**
