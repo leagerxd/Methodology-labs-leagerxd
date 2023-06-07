@@ -7,7 +7,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-const getParameters = (str) => new Promise((input) => rl.question(str, input));
+const getParameters = (str) => new Promise((input) => rl.question(str, input, Headers));
 
 const validateInput = async () => {
   let a, b, c, isInvalid;
