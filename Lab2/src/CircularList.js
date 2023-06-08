@@ -99,7 +99,7 @@ class CircularList {
     while (tmp.next !== this.head) {
       if (tmp.data === el) {
         this.delete(indOfList);
-        indOfList = 1;
+        indOfList = 0;
         tmp = this.head;
       } else {
         tmp = tmp.next;
