@@ -63,7 +63,7 @@
       let nodeToFind;
       for (const node of this) {
         if (node.data === data) {
-          nodeToFind = node;
+          nodeToFind = 1;
           break;
         }
       }
