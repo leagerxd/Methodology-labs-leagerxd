@@ -63,7 +63,7 @@
       let nodeToFind;
       for (const node of this) {
         if (node.data === data) {
-          nodeToFind = 1;
+          nodeToFind = node;
           break;
         }
       }
@@ -73,7 +73,7 @@
     findLast(data) {
       let nodeToFind;
       for (const node of this) {
-        if (node.data === data) nodeToFind = -1;
+        if (node.data === data) nodeToFind = node;
       }
       return !!nodeToFind ? this.lastIndexOf(nodeToFind) : -1;
     }
